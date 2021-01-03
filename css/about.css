@@ -1,0 +1,300 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header{
+    display:flex;
+    flex-direction: column;
+    width: 100%;  
+}
+
+.top{
+    height: 30px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.top_login{
+   width: 1040px;
+    height: 30px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.top_login a{
+    color: white;
+    line-height: 30px;   
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+   
+   
+}
+
+.nav .nav_content {
+    display: flex;
+    height: 60px;
+    width:960px;
+    align-items: center;
+    justify-content:space-between;
+   
+}
+.nav .nav_content .list{
+    justify-content: space-around;
+    margin-left: 40px;
+}
+
+.nav .nav_content .list a{
+    color: black;
+    font-family: "思源黑体";
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav .logo{
+    align-items: center;
+    display: flex;
+    margin-right: 40px;
+
+}
+
+.nav .nav_content .list a:hover{
+    display: block;
+    text-align: center;
+    color:red;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+
+#main .company{
+    width: 1040px;
+    height: 420px;
+    display:flex;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+#main .company .about_title {
+    color: black;
+    font-family: "思源黑体";
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#main .company .local{
+    display:flex;
+    justify-content:space-between;
+
+}
+
+#main .company .com_local2{
+    margin-left: 40px;
+    color: red;
+    font-family: "思源黑体";
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+#main .company .com_local3{
+    justify-content:space-between;
+    align-items:flex-end;
+
+}
+
+#main .company .com_linian{
+    font-family: "思源黑体";
+    font-size: 16px;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+
+#main .company .com_linian .bottom{
+   margin-left:40px;
+}
+
+#main .company .com_jianjie{
+    flex-direction: row;
+    display: flex;
+    margin: auto 10px;
+    align-content: space-between;
+
+}
+#main .company .com_jianjie .produce{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+.com_img{
+    margin: 20px 40px 0px 0px
+    
+}
+.company .mou{
+    color: red;
+}
+
+#main .com_about{
+    display:flex;
+    margin-top: 40px;
+    width: 1040px;
+    justify-content:space-between;
+    flex-direction:row;
+    
+}
+#main .com_about .more{
+    color: red;
+}
+#main .com_news{
+    display: flex;
+    flex-direction: row;
+    margin: 30px auto;
+    justify-content:space-between;
+
+    
+}
+
+#main .news_content{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#main .news_content a:hover{
+    background-color: red;
+    color: white;
+}
+#main .news_content a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.news_content > div{
+    background-image:url(../img/list.jpg) center no-repeat;
+}
+
+.youshi{
+    display: flex;
+    border: 1px solid black;
+    width: 1040px;
+    justify-content: space-between;
+}
+
+.youshi .text_img1{
+    flex-direction: column;
+    height: 400px;
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+
+.youshi .text_img1 div{
+    justify-content: space-around;
+}
+
+.youshi .text{
+    flex-direction: column;
+    display: flex;
+    width: 600px;
+    justify-content: space-around;
+}
+.youshi .text .text1{
+    flex-direction:row;
+
+}
+
+
+
+.relative{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e1e1e;
+}
+.relative1{
+    display: flex;
+    height: 200px;
+    width:1040px;
+    flex-direction: column;
+}
+.relative .toptitle {
+    display: flex;
+    width: 1040px;
+    justify-content: center;
+}
+.relative .toptitle h3{
+    width: 200px;
+    height: 60px;
+    color: white;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.relative .cons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h5{
+    color: white;
+}
+.relative .cons .rel_con{
+    flex-direction: column;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+#footer{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+#footer div{
+    height: 30px;
+    align-items: center;
+    flex-direction:row;
+   
+}
+#footer .foot_con{
+    width: 1040px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#footer div a{
+    text-decoration: none;
+    color: white;
+}
